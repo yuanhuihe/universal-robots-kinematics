@@ -1,7 +1,6 @@
 // coppeliasimTests.h
 
 #pragma once
-#ifndef _DEBUG
 
 #include <windows.h>
 #include "universalRobotsKinematics.h"
@@ -65,5 +64,3 @@ namespace coppeliaSim
 	void sendRobotTargetJointValues(const int& clientID, const universalRobots::UR& robot, const int(&robotJointHandles)[], const float(&jointValue)[], const unsigned int& waitTime = 500);
 
 } // namespace coppeliaSim
-
-#endif

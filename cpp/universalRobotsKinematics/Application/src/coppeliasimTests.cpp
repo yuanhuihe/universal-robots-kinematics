@@ -1,7 +1,5 @@
 // coppeliasimTests.cpp
 
-#ifndef _DEBUG
-
 #include <iostream>
 #include "coppeliasimTests.h"
 
@@ -74,5 +72,3 @@ namespace coppeliaSim
 	}
 
 } // namespace coppeliaSim
-
-#endif

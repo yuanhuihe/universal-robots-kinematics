@@ -29,28 +29,28 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -133,7 +133,7 @@
       <PreprocessorDefinitions>NON_MATLAB_PARSING;MAX_EXT_API_CONNECTIONS=255;DO_NOT_USE_SHARED_MEMORY</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\CoppeliaSim\remoteApi;$(SolutionDir)Dependencies\CoppeliaSim\include;C:\Work\Eigen;$(SolutionDir)mathLib\src;$(SolutionDir)universalRobotsKinematics\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\CoppeliaSim\remoteApi;$(SolutionDir)Dependencies\CoppeliaSim\include;$(SolutionDir)Dependencies\Eigen-3.4.0;$(SolutionDir)mathLib\src;$(SolutionDir)universalRobotsKinematics\src</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
@@ -150,7 +150,7 @@
       <PreprocessorDefinitions>NON_MATLAB_PARSING;MAX_EXT_API_CONNECTIONS=255;DO_NOT_USE_SHARED_MEMORY</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\CoppeliaSim\remoteApi;$(SolutionDir)Dependencies\CoppeliaSim\include;C:\Work\Eigen;$(SolutionDir)mathLib\src;$(SolutionDir)universalRobotsKinematics\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\CoppeliaSim\remoteApi;$(SolutionDir)Dependencies\CoppeliaSim\include;$(SolutionDir)Dependencies\Eigen-3.4.0;$(SolutionDir)mathLib\src;$(SolutionDir)universalRobotsKinematics\src</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
